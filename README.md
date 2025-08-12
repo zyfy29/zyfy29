@@ -7,7 +7,7 @@
 
 - 📝 I regularly write articles on [https://qiita.com/zuoyoufengyuan](https://qiita.com/zuoyoufengyuan)
 
-- ⚡ Fun fact **I'm not familiar with JavaScript, so I build alternatives using Streamlit and Jetpack Compose..**
+- ⚡ Fun fact **I'm not familiar with JavaScript, so I build alternatives using Streamlit and Jetpack Compose**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
