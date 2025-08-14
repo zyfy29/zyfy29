@@ -7,11 +7,9 @@
 
 - 📝 I regularly write articles on [https://qiita.com/zuoyoufengyuan](https://qiita.com/zuoyoufengyuan)
 
-- ⚡ Fun fact **I'm not familiar with JavaScript, so I build alternatives using Streamlit and Jetpack Compose**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.leetcode.cn/qingyinongnong" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="qingyinongnong" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/qingyinongnong" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="qingyinongnong" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
