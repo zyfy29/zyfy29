@@ -1,0 +1,49 @@
+name: Update LeetCode URLs to CN Domain
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'README.md' ]
+  workflow_dispatch:
+
+jobs:
+  postprocess-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Make postprocess script executable
+        run: chmod +x postprocess.sh
+
+      - name: Run README.md post-processing
+        id: postprocess
+        run: |
+          if ./postprocess.sh; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Post-processing completed with changes"
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "Post-processing completed without changes"
+          fi
+
+      - name: Commit and push changes
+        if: steps.postprocess.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README.md: Clean URLs and remove empty sections"
+          git push
+
+      - name: Summary
+        run: |
+          if [[ "${{ steps.postprocess.outputs.changes }}" == "true" ]]; then
+            echo "✅ Successfully updated README.md"
+          else
+            echo "ℹ️ No changes needed in README.md"
+          fi
