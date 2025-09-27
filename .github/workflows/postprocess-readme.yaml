@@ -2,13 +2,13 @@ name: Update LeetCode URLs to CN Domain
 
 on:
   push:
-    branches: [ main ]
-    paths: [ 'README.md' ]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   postprocess-readme:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - name: Checkout repository
