@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm zyfy29</h1>
-<h3 align="center">I'm looking for server-side engineering opportunities in Japan.</h3>
+<h3 align="center">Looking for server-side engineering opportunities in Japan. Feel free to reach out!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=zyfy29&label=Profile%20views&color=0e75b6&style=flat" alt="zyfy29" /> </p>
 
 - 🔭 I’m currently working on **some wonderful Go projects**
 
-- 🌱 I’m currently learning **Cloud Native**
+- 🌱 I’m currently learning **NoSQL**
 
 - 📝 I regularly write articles on [https://qiita.com/zuoyoufengyuan](https://qiita.com/zuoyoufengyuan)
 
@@ -26,3 +26,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=zyfy29&show_icons=true&theme=tokyonight&locale=en" alt="zyfy29" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=zyfy29&theme=dark" alt="zyfy29" /></p>
+
