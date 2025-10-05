@@ -3,11 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=zyfy29&label=Profile%20views&color=0e75b6&style=flat" alt="zyfy29" /> </p>
 
-- 🔭 I’m currently working on **some wonderful Go projects**
+- 🔭 I’m currently working on [google/go-github](https://github.com/google/go-github)
 
 - 🌱 I’m currently learning **NoSQL**
-
-- 📝 I regularly write articles on [https://qiita.com/zuoyoufengyuan](https://qiita.com/zuoyoufengyuan)
 
 - 💬 Ask me about **Android development**
 
@@ -15,7 +13,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.leetcode.cn/qingyinongnong" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="qingyinongnong" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/qingyinongnong" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="qingyinongnong" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
